@@ -1,7 +1,4 @@
-v = float(input('digite a medida em metro: '))
-cent = v * 100
-mil = v * 1000
-
-print('O valor digitado foi: ',v)
-print('Em centimetro é: ',cent)
-print('Em milimetro é: ',mil)
+m = float(input('digite a medida em metro: '))
+print('O valor digitado foi: ',m)
+print('Em centimetro é: {:.0f}'.format(m*100))
+print('Em milimetro é: {:.0f}'.format(m*1000))
