@@ -1,4 +1,3 @@
-valor_carteira = float(input('digite o valor em real '))
-conv = valor_carteira * 3.27
-
-print('voce pode comprar', conv, 'dollares.')
+real = float(input('digite o valor R$ '))
+dolar = real / 3.27
+print('voce pode comprar', dolar, 'dollares.')
